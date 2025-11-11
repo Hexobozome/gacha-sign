@@ -11,13 +11,26 @@
 ## 整合格式
 
 原项目使用 Python, TypeScript 等不同语言，且缺少项目文件[^1]，需要进入特定环境才能运行。
-现统一为直接可用之 bash 命令 `gacha-sign-*`, 如 `gacha-sign-skland`.
+现统一为直接可用之 bash 命令 `gacha-sign-*`.
 
 [^1]: `pyproject.toml`, `package.json#entry` 等，缺少这些很难打包
 
 原项目中配置文件散佚各处，如项目中 `config/` 或者环境变量, 现统一为 `~/.config/gacha-sign/**/`.
 
-## 各
+## 安装方式
+
+```nix
+{
+  environment.systemPackages = with pkgs; [
+    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-hypergryph
+    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-mihoyo
+    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-kuro
+    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-kuro-login
+  ];
+}
+```
+
+## 各平台配置
 
 ### 森空岛
 
