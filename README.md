@@ -33,3 +33,5 @@
 
 - 程序：`gacha-sign-kuro`
 - 配置文件：`~/.config/gacha-sign/kuro/<name>.yaml`
+
+额外程序: `gacha-sign-kuro-login` 用于获取登录信息。
